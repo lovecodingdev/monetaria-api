@@ -81,7 +81,7 @@ class Logger {
 }
 
 export const loggerInstance = new Logger({
-  serviceName: process.env.npm_package_name || 'Aave-api',
+  serviceName: process.env.npm_package_name || 'Monetaria-api',
 });
 
 const logger = loggerInstance.getLogger();

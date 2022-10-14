@@ -235,7 +235,7 @@ export default class RatesHistory implements RatesHistoryInterface {
     } catch (error) {
       res.status(500).send({
         error:
-          'Something failed in the Service. Please contact the Aave team !',
+          'Something failed in the Service. Please contact the Monetaria team !',
       });
     }
   };

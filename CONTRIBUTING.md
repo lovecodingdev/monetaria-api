@@ -15,5 +15,5 @@ docker-compose up
 ### General
 
     PORT - the port for the api, default 3000
-    MONGO_URL - mongodb uri, default mongodb://mongodb:27017/aave
-    THE_GRAPH_URI - aave v2 compatible thegraph uri
+    MONGO_URL - mongodb uri, default mongodb://mongodb:27017/monetaria
+    THE_GRAPH_URI - Monetaria compatible thegraph uri

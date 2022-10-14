@@ -13,6 +13,7 @@ export default class MongoDB implements MongoDBInterface {
 
   public async connect(): Promise<void> {
     if (!this.connection) {
+      console.log(this.url);
       this.connection = await mongoose.connect(this.url, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
